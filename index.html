@@ -11,7 +11,7 @@
     <!-- font-awesome cdn link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- poppins font link  -->
+    <!-- font link  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -26,17 +26,17 @@
     <header class="honda-header-bg text-white">
         
         <!-- banner section -->
-        <section class="container d-flex justify-content-center align-items-center py-5">
-            <div class="col-lg-6">
+        <section class="container d-lg-flex justify-content-center align-items-center py-5">
+            <div class="col-sm-12 col-lg-6">
                 <div class="row gy-2">
-                    <small>Computer-controlled digital transistorized with electronic advance</small>
+                    <small class="pb-sm-4">Computer-controlled digital<span class="list-inline-item"> transistorized with electronic advance</span></small>
                 <h1>Honda CBR 300R</h1>
                 <p class="w-75">Making motorcycles with the basic goal of bringing joy and satisfaction to people serves as the starting point of Honda. </p>
                 </div>
                 <button class="btn text-white honda-bg-primary px-5" data-bs-toggle="modal" data-bs-target="#purchase">Purchase</button>
             </div>
-            <div class="col-lg-6">
-                <img src="images/header-bike.png" alt="">
+            <div class="col-sm-12 col-lg-6">
+                <img class="img-fluid pt-5" src="images/header-bike.png" alt="">
             </div>
 
         </section>
@@ -48,7 +48,7 @@
         <section class="container py-5">
             <h1 class="text-center fw-bold"> featured Bikes 2021 </h1>
             <small class="d-block text-center honda-text-primary fw-bolder">Best bike collection</small>
-            <div class="d-flex">
+            <div class="d-lg-flex">
                 <div class="col-lg-4">
                     <img class="img-fluid p-5 featured-img" src="images/feature-bike.jpg" alt="">
                 </div>
@@ -63,13 +63,15 @@
 
         <!-- testimonial section -->
         <section class="container my-5">
-            <h1 class="text-center fw-bold">Happy <span class="honda-text-primary"> Clients says </span></h1>
+            <h1 class="text-center fw-bold pb-5 pb-lg-3">Happy <span class="honda-text-primary list-inline-item"> Clients says </span></h1>
+
             <!-- card section -->
-            <div class="p-5">
+            <div class="p-lg-5">
                 <div class="row row-cols-1 row-cols-md-3 g-4">
+
                     <!-- card body -->
                     <div class="col">
-                      <div class="card h-100 p-5">
+                      <div class="card h-100 p-4">
                         <img src="images/user-1.png" class="card-img-top px-3 mb-4" alt="...">
                         <div class="card-body pb-0">
                           <p class="card-text text-center">
@@ -89,9 +91,10 @@
                         </div>
                       </div>
                     </div>
+
                     <!-- card body -->
                     <div class="col">
-                      <div class="card h-100 p-5">
+                      <div class="card h-100 p-4">
                         <img src="images/user-2.png" class="card-img-top px-3 mb-4" alt="...">
                         <div class="card-body pb-0">
                           <p class="card-text text-center">
@@ -111,9 +114,10 @@
                         </div>
                       </div>
                     </div>
+
                     <!-- card body -->
                     <div class="col">
-                      <div class="card h-100 p-5">
+                      <div class="card h-100 p-4">
                         <img src="images/usern-3.jpg" class="card-img-top rounded-circle px-3 mb-4" alt="...">
                         <div class="card-body pb-0">
                           <p class="card-text text-center">
@@ -136,13 +140,14 @@
                   </div>
             </div>
         </section>
+
         <!-- FAQ section -->
         <section class="container faq-text">
            <h1 class="text-center fw-bold py-5">
              Frequently Asked <span class="honda-text-primary"> Questions </span>
             </h1>
             <div class="row my-5">
-              <div class="col-lg-6">
+              <div class="col-lg-6 d-flex justify-content-center">
                   <img class="img-fluid h-75" src="images/faq.png" alt="">
               </div>
               <div class="col-lg-6">
@@ -208,15 +213,114 @@
                 </div>
               </div>
             </div>
-
+        </section>
+        
+        <!-- Innovation Section -->
+        <section class="container pb-5">
+          <h1 class="text-center fw-bold pb-5 text-uppercase">
+            Innovation
+           </h1>
+           <div class="">
+            <nav>
+              <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Electrification</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+                  Automated Drive</button>
+                <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">
+                  Technology</button>
+              </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active text-center p-5" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                  <h5 class="fw-bold">
+                    “Toward a clean and safe/secure society.”
+                  </h5> 
+                  <br>
+                  In environmental fields, Honda will accelerate initiatives for a zeroemission society by actively promoting the effective use of renewable energy, realizing Zero Emission Vehicles (ZEV) and promoting electrification in working to also achieve a zero-emission society.
+              </div>
+              <div class="tab-pane fade text-center p-5" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <h5 class="fw-bold">
+                  Advanced Driver Assistance System.
+                </h5> 
+                <br>
+                Honda is developing automated drive, and driver assistive technologies, aiming to provide people worldwide with the joy and freedom of collision-free mobility in this motorized society where many types of mobility, such as cars and bikes, coexist.
+              </div>
+              <div class="tab-pane fade text-center p-5" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                <h5 class="fw-bold">
+                  Establishment of the world's first installation system.
+                </h5> 
+                <br>
+                After announcing the development of our technology at the Milan Show 2008,  in 2010, the VFR1200F sports tourer became the first motorcycle in the world to be equipped with Dual Clutch Transmission. It is since this time that the idea of switching between AT and MT modes at the will of the rider, and temporarily allowing manual operation even when the AT mode is used has been adopted.
+              </div>
+            </div>
+           </div>
         </section>
 
-    </main>
+        <!-- Upcoming Honda Bikes  -->
+        <section class="container py-5">
+          <h1 class="text-center fw-bold pb-5 text-uppercase">
+            <span class="honda-text-primary"> Upcoming </span> Honda Bikes 
+          </h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/1.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-bold">Honda Rebel 300</h5>
+                  <div class="card-text d-flex justify-content-around py-3">
+                    <p>
+                      <i class="far fa-calendar-alt"></i>
+                      4 Aug 2021
+                    </p>
+                    <p>
+                      bdt. 4.30 Lakh
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/2.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-bold">Honda Rebel 1100</h5>
+                  <div class="card-text d-flex justify-content-around py-3">
+                    <p>
+                      <i class="far fa-calendar-alt"></i>
+                      4 Aug 2021
+                    </p>
+                    <p>
+                      bdt. 15.75 Lakh
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="images/3.jpg" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title fw-bold">2021 Honda CB1000R</h5>
+                  <div class="card-text d-flex justify-content-around py-3">
+                    <p>
+                      <i class="far fa-calendar-alt"></i>
+                      4 Aug 2021
+                    </p>
+                    <p>
+                      bdt. 20 Lakh
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>         
+        </section>
+      </main>
+
     <!-- footer section -->
-    <footer>
-
+    <footer class="honda-bg-primary text-white text-center mt-5">
+      &copy Programming Hero 2021
     </footer>
-
 
     <!-- Purchase Modal -->
     <div class="modal fade" id="purchase" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -227,11 +331,15 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <p> click Confirm to Purchase Honda CBR 300R </p>
+                <p>
+                  A single is the perfect choice for a bike like the CBR300R. It's light, simple, fuel efficient and features a broad powerband with plenty of low-revving torque—just what you want in your first motorcycle, but geared for comfortable cruising at highway speeds.
+                  <br>
+                  <span class="honda-text-primary">click Confirm to Purchase Honda CBR 300R</span>
+                </p>
             </div>
             <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary" >Confirm</button>
+            <button type="button" class="btn honda-bg-primary text-white" >Confirm</button>
             </div>
         </div>
         </div>
