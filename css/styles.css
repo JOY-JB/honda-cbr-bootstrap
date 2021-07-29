@@ -1,0 +1,23 @@
+/* poppins font family  */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/* honda Custom css */
+.honda-header-bg{
+    background-color: #264653;
+}
+.honda-bg-primary{
+    background-color: #E76F51;
+}
+.honda-text-primary{
+    color: #E76F51;
+}
+.featured-img {
+    filter: grayscale(100%);
+}
+.honda-client-name-color{
+    color: #23A6F0;
+}
+.faq-text{
+    font-family: 'Inter', sans-serif;
+}
